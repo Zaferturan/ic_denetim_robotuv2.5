@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # İç Denetim Chatbot UI
 
 Bu proje, AnythingLLM tabanlı iç denetim chatbotu için animasyonlu bir kullanıcı arayüzü içerir.
@@ -52,3 +53,6 @@ Yeni animasyonlar eklemek için:
 ## Lisans
 
 MIT 
+=======
+# ic_denetim_robotuv2.5
+>>>>>>> b3885ef91d42ca4cc13fa279a320378fd0d1470a
