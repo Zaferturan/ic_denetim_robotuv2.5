@@ -1,58 +1,81 @@
-<<<<<<< HEAD
-# İç Denetim Chatbot UI
+<h1 align="center">🤖 Nilüfer Belediyesi İç Denetim Robotu</h1>
 
-Bu proje, AnythingLLM tabanlı iç denetim chatbotu için animasyonlu bir kullanıcı arayüzü içerir.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kullaniciAdi/projeAdi/main/nilufer_ic_denetim_1.png" alt="İç Denetim Robotu" width="300"/>
+</p>
 
-## Özellikler
+---
 
-- SVG tabanlı animasyonlu robot karakteri
-- Konuşma sırasında göz, ağız ve kol animasyonları
-- Text-to-Speech entegrasyonu
-- Duygu durumlarına göre farklı animasyonlar
-- Mobil uyumlu tasarım
-- TypeScript ile tip güvenliği
+## 🚀 Projenin Amacı
 
-## Kurulum
+Bu robot, **Nilüfer Belediyesi'nde** denetim sürecini kolaylaştırmak amacıyla geliştirilmiştir.  
+Ana hedef:  
+- 👥 **Denetçi** ve **denetlenen** kişi arasındaki iş yükünü hafifletmek  
+- 🤖 Süreci otomatize ederek hataları azaltmak  
+- 📋 Dijital dönüşüme katkı sağlamak
 
-1. Bağımlılıkları yükleyin:
-```bash
-npm install
-```
+---
 
-2. Geliştirme sunucusunu başlatın:
-```bash
-npm start
-```
+## 🎯 Bu Sürüm Bir Demodur
 
-## Kullanım
+🔸 İlk sürüm sadece **Bilgi İşlem Müdürlüğü** sorularıyla eğitildi.  
+🔸 Eğitim, denetlenecek kişiye şu soru yöneltilerek yapıldı:  
+> “Size bu sorular sorulsaydı ne cevap verirdiniz?”
 
-EilikBot bileşeni şu prop'ları kabul eder:
+🔸 Cevaplar, yapay zekaya öğretildi ve demo amaçlı sınırlandı.
 
-- `message`: Konuşulacak metin
-- `isSpeaking`: Konuşma durumu
-- `emotion`: Duygu durumu ('happy', 'sad', 'excited', 'neutral')
+---
 
-Örnek kullanım:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kullaniciAdi/projeAdi/main/nilufer_ic_denetim_2.png" alt="İç Denetim Robotu 2" width="400"/>
+</p>
 
-```tsx
-<EilikBot 
-  message="Merhaba, size nasıl yardımcı olabilirim?"
-  isSpeaking={true}
-  emotion="happy"
-/>
-```
+---
 
-## Geliştirme
+## 📥 Cevaplar Nasıl Öğreniliyor?
 
-Yeni animasyonlar eklemek için:
+1. İlk kullanımda, her müdürlükte bulunan **Yapay Zeka Temsilcisi** ile denetlenecek kişi birlikte süreci başlatır.
+2. Sonraki denetimlerde:
+   - Denetimden 1 ay önce, tüm personele **form linki** gönderilir.
+   - Bu formda sık sorulan denetim soruları yer alır.
+   - Her kişi, kendisine yöneltilse nasıl cevap vereceğini yazılı olarak belirtir.
+   - Gelecekte **dokümanlar da eklenebilir.**
 
-1. `EilikBot.tsx` içindeki ilgili SVG elementlerini düzenleyin
-2. Yeni animasyon varyantları ekleyin
-3. Duygu durumlarına göre farklı animasyonlar tanımlayın
+---
 
-## Lisans
+## 🤖 Robotun Geleceği: Denetçi Versiyonu
 
-MIT 
-=======
-# ic_denetim_robotuv2.5
->>>>>>> b3885ef91d42ca4cc13fa279a320378fd0d1470a
+Gelecekte geliştirilecek versiyon sayesinde:
+
+- Denetçiler fiziksel olarak gitmek zorunda kalmaz.  
+- Yakıt ve zaman tasarrufu sağlanır.  
+- Sistem daha otomatik ve sistematik hale gelir.
+
+### 🔄 Denetçi Robot Akışı:
+1. Robot, denetlenecek kişiye online link olarak gönderilir.  
+2. Personel soruları cevaplar.  
+3. Robot yanıtları değerlendirir ve denetim raporunu oluşturur.  
+4. Rapor denetçilere iletilir → onay/düzeltme süreci başlar.
+
+---
+
+## 🌐 Canlı Demo
+
+🔗 [Nilüfer İç Denetim Robotu](http://78.189.11.249:4000/)
+🔗 [Nilüfer İç Denetim Robotu](http://78.189.11.249:4001/)
+
+---
+
+## 🎨 Özellikler
+
+- 👩‍💻 Web tabanlı ve sesli yanıt desteği
+- 🧠 Arka planda AnythingLLM entegrasyonu
+- 🤖 Şirin ve animasyonlu robot karakteri
+- 🏢 Nilüfer Belediyesi kurumsal kimliği ile uyumlu
+
+---
+
+## 🛠️ Geliştirenler
+
+- Nilüfer Belediyesi Bilgi İşlem Müdürlüğü
+- Destek: Yapay Zeka Temsilcileri
