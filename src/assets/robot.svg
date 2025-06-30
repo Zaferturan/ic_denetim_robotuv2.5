@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gövde -->
+  <g id="body">
+    <ellipse cx="100" cy="150" rx="60" ry="70" fill="#ffffff" stroke="#222" stroke-width="4"/>
+    <path d="M70,110 C80,90 120,90 130,110" fill="#f8aebc" />
+  </g>
+
+  <!-- Kafa -->
+  <g id="head">
+    <ellipse cx="100" cy="70" rx="50" ry="60" fill="#ffffff" stroke="#222" stroke-width="4"/>
+    <circle cx="100" cy="70" r="30" fill="#222222"/>
+    
+    <!-- Gözler -->
+    <g id="eyes">
+      <ellipse cx="85" cy="65" rx="5" ry="8" fill="#aef" />
+      <ellipse cx="115" cy="65" rx="5" ry="8" fill="#aef" />
+    </g>
+    
+    <!-- Ağız -->
+    <g id="mouth">
+      <path d="M85,80 Q100,95 115,80" fill="#aef" />
+    </g>
+  </g>
+
+  <!-- Kollar -->
+  <g id="arms">
+    <path d="M40,150 Q20,130 40,110" fill="#aef" stroke="#222" stroke-width="4"/>
+    <path d="M160,150 Q180,130 160,110" fill="#f8aebc" stroke="#222" stroke-width="4"/>
+  </g>
+
+  <!-- Zemin (stand) -->
+  <ellipse cx="100" cy="220" rx="70" ry="10" fill="#eee" stroke="#222" stroke-width="2"/>
+</svg> 
