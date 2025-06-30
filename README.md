@@ -1,7 +1,7 @@
 <h1 align="center">🤖 Nilüfer Belediyesi İç Denetim Robotu</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kullaniciAdi/projeAdi/main/nilufer_ic_denetim_1.png" alt="İç Denetim Robotu" width="300"/>
+  <img src="https://github.com/Zaferturan/ic_denetim_robotuv2.5/blob/main/v.25.png" width="300"/>
 </p>
 
 ---
@@ -27,7 +27,7 @@ Ana hedef:
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kullaniciAdi/projeAdi/main/nilufer_ic_denetim_2.png" alt="İç Denetim Robotu 2" width="400"/>
+  <img src="https://github.com/Zaferturan/ic_denetim_robotuv2.5/blob/main/v.25.png" alt="İç Denetim Robotu 2" width="400"/>
 </p>
 
 ---
