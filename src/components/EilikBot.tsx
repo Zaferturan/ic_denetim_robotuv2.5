@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
@@ -208,7 +207,4 @@ const EilikBot: React.FC<EilikBotProps> = ({ message, messageId, isSpeaking, emo
   );
 };
 
-export default EilikBot; 
-=======
-// ... dosya içeriği buraya gelecek ...
->>>>>>> b3885ef91d42ca4cc13fa279a320378fd0d1470a
+export default EilikBot;
