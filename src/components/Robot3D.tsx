@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -254,6 +253,3 @@ const Robot3D: React.FC<Robot3DProps> = (props) => {
 };
 
 export default Robot3D; 
-=======
-// ... dosya içeriği buraya gelecek ...
->>>>>>> b3885ef91d42ca4cc13fa279a320378fd0d1470a
